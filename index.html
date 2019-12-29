@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>עבודות סיפרותיות</title>
+	<!-- <link rel="icon" href="https://zupimages.net/up/19/45/3xvl.png" type="image/gif" sizes="16x16"> -->
+	<link rel="icon" href="https://zupimages.net/up/19/45/6025.jpg" type="image/gif" sizes="22x22">
+	<link rel="stylesheet" type="text/css" href="Avodot_Hasifrutit.css">
+</head>
+  <body id="presbody">
+<!------------------- HEADER SECTION --------------->
+
+    <header id="band_acc">
+      <a href="Oeuvres_Litteraires.html" class="Accueil"><img src="https://zupimages.net/up/19/45/zzpa.jpg" width="170"></a>
+      <h1 id='acctitle'>העבודות הסיפרותיות שלי</h1>
+
+      <div class="container"> <!-- Placé le Container ici fait que la barre de navigation est CENTRÉE-->
+      <nav class="navbar navbar-default navbar-inverse">
+      <div class="container"> <!-- pour eviter que cela soit collé aux bords de pages -->
+
+       <ul class="headernavbar">
+	        <li><a id="navpres" class="hovereffect" href="#">הקדמה</a></li>
+	        <li><a class="hovereffect" href="#">דברי הימים</a></li>
+	        <li><a class="hovereffect" href="#">תלמוד</a></li>
+	        <li><a class="hovereffect" href="#">יצר קשר</a></li>
+            <li class="lang">
+            	<div class="dropdown">
+				  	<button onclick="myFunction()" class="dropbtn hovereffect">שפה</button>
+				  	<div id="myDropdown" class="dropdown-content">
+				   	    <a href="C:\Users\Administrateur\OneDrive\Bureau\Mes_Oeuvres\PROJECTS\OEUVRES_LITTERAIRES\Frenchpage\Oeuvres_Litteraires.html">Français</a>
+				  	 	<a href="C:\Users\Administrateur\OneDrive\Bureau\Mes_Oeuvres\PROJECTS\OEUVRES_LITTERAIRES\Englishpage\My_Literary_Works.html">English</a>
+				  	    <a href="C:/Users/Administrateur/OneDrive/Bureau/Mes_Oeuvres/PROJECTS/OEUVRES_LITTERAIRES/Arabicpage/Alaamalel.html">عربيه</a>
+				  </div>
+				</div>
+			</li>
+       </ul>
+
+        </div>
+     </nav>
+      </div> <!-- dans le cas de navbar CENTRÉE -->
+    </header>
+
+	<script type="text/javascript">
+		alert("על-ידי לחיצה על 'אישור' אתה מאשר שקראת ואישרת את הכללים הבאים: : \n" + "1) כל הזכויות שמורות על-ידי חוקי זכויות יוצרים, תשסח-2007. כל העתקה, שיתוף והנאותות של טקסט ניתנים לעונש (חוק 27.2 ההכרזה הבינלאומית לזכויות האדם)." + "\n2) הסיפורים המצויירים כבדויונים הם בדיונים ומטרתם אינה בשום אופן לפגוע בדתות או באמונות לכן לא ניתן להצדיק כל פעולה משפטית משום שאתה מכיר באופי הבדיוני של הטקסטים המודאגים.\n" + "3) כאשר סביבת התגובות תפעל, אתה תהיה האחראי היחיד למה שאתה אומר וכיצד.\n" + "4) כללים אלה אינם ממצה והם כפופים לתיקון.\n")
+
+		/* When the user clicks on the button,
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+		    var dropdowns = document.getElementsByClassName("dropdown-content");
+		    var i;
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
+		      if (openDropdown.classList.contains('show')) {
+		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+	</script>
+</body>
+</html>
